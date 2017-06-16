@@ -4,6 +4,7 @@ python:
 sudo: required
 before_install:
     - sudo add-apt-repository -y ppa:kivy-team/kivy
+    - sudo apt-get update
     - sudo apt-get install python-kivy
     - sudo apt-get install kivy-example
 install:
