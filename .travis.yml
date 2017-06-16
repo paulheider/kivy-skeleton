@@ -10,5 +10,6 @@ install:
     - pip install pip
     - pip install setuptools
     - pip install wsgiref
+    - pip install Cython
     - pip install -r requirements.txt
 script: nosetests
